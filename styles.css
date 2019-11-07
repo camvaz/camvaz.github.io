@@ -1,3 +1,11 @@
 *{
  font-family: 'Roboto Slab', serif;       
 }
+
+.navbar .navbar-collapse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background: #424242;
+}
+
+*:focus {
+    outline: 0 !important;
+}

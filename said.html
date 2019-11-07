@@ -1,0 +1,287 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Practica Js</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="md5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="md5/css/mdb.min.css" rel="stylesheet">
+    <!-- Your cu(optional) -->
+    <link href="md5/css/style.css" rel="stylesheet">
+    <link href="stylesaid.css" rel="stylesheet">
+</head>
+</head>
+<body class="bg-info">
+    <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tienda cerrada</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="modalbody">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-sm">
+                <h1 class="text-center text-white bg-info my-2">Practica JS</h1>
+            </div>
+        </div>
+        <div class="row my-2">
+            <div class="col-sm-8 mx-0">
+                <div class="row justify-content-center">
+
+                    <div class="col-sm-3 my-4 ">
+
+                        <div class="card card-cascade wider">
+                            <!-- Card image -->
+                            <div class="view view-cascade overlay">
+                                <img class="card-img-top mx-auto"
+                                    src="https://st3.depositphotos.com/1007298/17029/i/1600/depositphotos_170292172-stock-photo-sweet-pistachio-cookies.jpg"
+                                    alt="Card image cap" style="height: 300px;width:200; overflow: hidden;">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+
+                            <!-- Card content -->
+                            <div class="card-body card-body-cascade text-center">
+
+                                <!-- Title -->
+                                <h4 class="card-title"><strong>Galletas</strong></h4>
+                                <small id="cantidadgalleta">Cantidad:</small>
+                                <div class="md-form">
+                                        <input type="number" id="numGalleta" min="0" class="form-control-sm">
+                                </div>
+                                <!-- Subtitle -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3  my-4">
+
+                        <div class="card card-cascade wider">
+
+                            <!-- Card image -->
+                            <div class="view view-cascade overlay">
+                                <img class="card-img-top "
+                                    src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg"
+                                    alt="Card image cap" style=" overflow: hidden;">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+
+                            <!-- Card content -->
+                            <div class="card-body card-body-cascade text-center">
+
+                                <!-- Title -->
+
+                                <h4 class="card-title"><strong>Leche</strong></h4>
+
+                                <small id="cantidadLeche">Cantidad:</small>
+                                <div class="md-form">
+                                        <input type="number" id="numLeche" min="0" class="form-control-sm">
+                                </div>
+                                
+                                <!-- Subtitle -->
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3 my-4">
+
+                        <div class="card card-cascade wider">
+
+                            <!-- Card image -->
+                            <div class="view view-cascade overlay">
+                                <img class="card-img-top "
+                                    src="https://upload.wikimedia.org/wikipedia/commons/1/12/6-Pack-Chicken-Eggs.jpg"
+                                    alt="Card image cap" style=" overflow: hidden;">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+
+                            <!-- Card content -->
+                            <div class="card-body card-body-cascade text-center">
+
+                                <!-- Title -->
+
+
+                                <h4 class="card-title"><strong>Huevo</strong></h4>
+                                <small id="cantidadHuevo">Cantidad:</small>
+                                <div class="md-form">
+                                        <input type="number" id="numHuevo" min="0" class="form-control-sm">
+                                </div>
+                                
+                                <!-- Subtitle -->
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-sm-3 my-4 mx-0">
+
+                        <div class="card card-cascade wider">
+
+                            <!-- Card image -->
+                            <div class="view view-cascade overlay">
+                                <img class="card-img-top "
+                                    src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
+                                    alt="Card image cap" style=" overflow: hidden;">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+
+                            <!-- Card content -->
+                            <div class="card-body card-body-cascade text-center">
+
+                                <!-- Title -->
+                                <h4 class="card-title"><strong>Cafe</strong></h4>
+
+                                <small id="cantidadCafe">Cantidad:</small>
+                                <div class="md-form">
+                                        <input type="number" id="numCafe" min="0" class="form-control-sm">
+                                </div>
+
+                                <!-- Subtitle -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 my-4">
+
+                        <div class="card card-cascade wider">
+
+                            <!-- Card image -->
+                            <div class="view view-cascade overlay">
+                                <img class="card-img-top mx-auto"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Arctic_Beer.jpg"
+                                    alt="Card image cap" 
+                                    style="height: 300px; width:200px">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+
+                            <!-- Card content -->
+                            <div class="card-body card-body-cascade text-center">
+
+                                <!-- Title -->
+                                <h4 class="card-title"><strong>Cerveza</strong></h4>
+                                <small id="cantidadcerveza">Cantidad:</small>
+                                <div class="md-form">
+                                        <input type="number" id="numCerveza" min="0" class="form-control-sm">
+
+                                </div>
+
+                                <!-- Subtitle -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 my-4">
+
+                        <div class="card card-cascade wider">
+
+                            <!-- Card image -->
+                            <div class="view view-cascade overlay">
+                                <img class="card-img-top "
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a5/A_glass_of_red_wine.jpg"
+                                    alt="Card image cap" style=" overflow: hidden;">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+
+                            <!-- Card content -->
+                            <div class="card-body card-body-cascade text-center">
+
+                                <!-- Title -->
+                                <h4 class="card-title"><strong>Vino</strong></h4>
+
+                                <small id="cantidadvino">Cantidad:</small>
+                                <div class="md-form">
+                                        <input type="number" id="numVino" min="0" class="form-control-sm">
+                                </div>
+
+                                <!-- Subtitle -->
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 text-center">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" id="cart" class="btn btn-white text-info waves-effect mb-4 mr-3"><i class="fas fa-shopping-cart mr-2"></i>Llenar Carrito</button>
+                        <button type="button" id="close" class="btn btn-white text-info waves-effect mb-4" data-toggle="modal" data-target="#basicExampleModal"><i class="far fa-times-circle mr-2"></i>Cerrar Tienda</button>
+                    </div>
+                        <div id="carrito" class="card card-cascade wider" hidden=true>
+
+                            <!-- Card image -->
+
+                            <!-- Card content -->
+                            <div class="card-body card-body-cascade text-center" id="tarcarrito">
+
+                                <!-- Title -->
+                                
+
+                                <!-- Subtitle -->
+
+                            </div>
+
+                        </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="md5/js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="md5/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="md5/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="md5/js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="said.js"></script>
+</body>
+
+</html>
